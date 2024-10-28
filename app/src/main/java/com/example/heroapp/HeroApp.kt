@@ -48,6 +48,7 @@ fun HeroApp(
         factory = ViewModelFactory(Injection.provideRepository())
     )
 
+
     Scaffold(
         bottomBar = {
             if (currentRoute != Screen.DetailHero.route) {
